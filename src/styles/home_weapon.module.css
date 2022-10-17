@@ -1,0 +1,20 @@
+.weaponcards_container {
+    background: rgba(0, 0, 0, 0.3) url(https://images-ext-1.discordapp.net/external/MIyqQBc397VJ3iE6Z4YYV4Z_2VhkMuM4JXfbyUstrZ8/https/cdn.segmentnext.com/wp-content/uploads/2012/08/cs-go-e1578385569672.jpg?width=1178&height=662);
+    height: 50vh;
+    width: 40%;
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none; 
+}
+
+.weaponcards_container h2 {
+    font-size: 7vh;
+    color: white;
+    text-shadow: 5px 5px 5px black;    
+}

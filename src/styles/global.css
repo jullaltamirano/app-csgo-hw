@@ -1,0 +1,12 @@
+#root {
+    --gold: #FFA500;
+    --blue: #1D2C49;
+}
+
+body {
+    background-color: rgb(20,20,20);
+}
+
+* {
+    cursor: crosshair;
+}

@@ -1,0 +1,23 @@
+.weapon_container {
+    height: 20vh;
+    width: 30%;
+    border: 0px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;   
+    text-decoration: none; 
+    margin: 0px 10px;
+    margin-bottom: 30px;
+}
+
+.weapon_container span {
+    font-size: 5vh;
+    color: white;
+    text-shadow: 5px 5px 5px black;   
+}
+

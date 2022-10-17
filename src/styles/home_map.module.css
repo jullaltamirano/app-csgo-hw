@@ -1,0 +1,20 @@
+.mapscards_container {
+    background: rgba(0, 0, 0, 0.3) url(https://images-ext-2.discordapp.net/external/Hc0n41Jo_brc-SHITmFpKMqszLVaGOS0zMmwqQVkDPY/https/egamersworld.com/uploads/blog/1612722249594-1.jpg);
+    height: 50vh;
+    width: 40%;
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;   
+    text-decoration: none; 
+}
+
+.mapscards_container h2 {
+    font-size: 7vh;
+    color: white;
+    text-shadow: 5px 5px 5px black;   
+}
