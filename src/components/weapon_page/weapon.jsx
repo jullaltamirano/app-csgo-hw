@@ -1,4 +1,4 @@
-import s from '../styles/weapon.module.css'
+import s from './weapon.module.css'
 import { useState } from 'react';
 
 export default function Weapon({weapons}){

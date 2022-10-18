@@ -1,4 +1,4 @@
-import s from '../styles/weapon_card.module.css'
+import s from './weapon_card.module.css'
 import { Link } from 'react-router-dom';
 
 export default function WeaponCard(props){

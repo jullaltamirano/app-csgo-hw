@@ -1,5 +1,5 @@
-import WeaponCard from "./weapon_card"
-import s from '../styles/weapons.module.css'
+import WeaponCard from "../weapon_card/weapon_card"
+import s from './weapons.module.css'
 
 export default function Weapons(props){
     return (
