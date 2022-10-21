@@ -7,8 +7,8 @@
 }
 
 .nav_container img {
-    width: 60px;
-    height: 60px;
+    width: 6vh;
+    height: 6vh;
 }
 
 .nav_container ul {
@@ -29,6 +29,7 @@
 
 .logo_container h1 {
     margin-left: 20px;
+    font-size: 25px;
 }
 
 .link {

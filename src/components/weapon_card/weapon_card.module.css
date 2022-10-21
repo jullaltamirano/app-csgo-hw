@@ -1,5 +1,5 @@
 .weapon_container {
-    height: 20vh;
+    height: 25vh;
     width: 30%;
     border: 0px;
     border-radius: 20px;
@@ -19,5 +19,6 @@
     font-size: 5vh;
     color: white;
     text-shadow: 5px 5px 5px black;   
+    font-weight: 600;
 }
 

@@ -1,15 +1,12 @@
-.weapon_container {
+.favorite_container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 5vh;    
-}
-
-.container {
-    text-align: center;
+    margin: 0px 300px;
 }
 
 .container h2 {
-    font-size: 6vh;
     color: var(--gold);
+    font-size: 6vh;
+    text-align: center;
 }

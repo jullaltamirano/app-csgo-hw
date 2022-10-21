@@ -2,6 +2,7 @@ import WeaponCard from "../weapon_card/weapon_card"
 import s from './weapons.module.css'
 
 export default function Weapons(props){
+
     return (
         <div className={s.container}>
             <h2>Weapons</h2>        

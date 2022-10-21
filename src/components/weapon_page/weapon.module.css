@@ -1,5 +1,20 @@
 .container {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.container button {
+    display:block;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: -35px;
+    background-color: var(--gold);
+    border: 1px solid var(--gold);
+    border-radius: 15px;
+    padding: 10px 25px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .container h3 {
@@ -8,7 +23,8 @@
 }
 
 .weapon_img {
-    width: 85%;
+    height: 30vh;
+    margin-bottom: 70px;
 }
 
 .div_container {
@@ -19,8 +35,9 @@
 .bullet_container {
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    border-radius: 15px;
     padding: 20px 50px;
+    background-color: rgba(255,255,255,.2);
 }
 
 .bullets {
@@ -35,27 +52,39 @@
 }
 
 .bullet_img {
-    width: 50px;
+    height: 12vh;
     margin-bottom: 10px;
 }
 
 .reload_img {
     margin-left: 50px;
-    width: 150px;
-    height: 150px;
+    width: 15vh;
+    height: 15vh;
 }
 
 
 .stats_container {
-    border: 1px solid red;
+    border-radius: 15px;
     padding: 20px 50px;
+    background-color: rgba(255,255,255,.2);
+}
+
+.stats_container span {
+    font-size: 35px;
 }
 
 .ul_container {
     display: flex;
+
 }
 
 .ul_container ul {
     list-style: none;
-    padding: 0px 20px;
+    padding: 0px 30px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.noBalas {
+    font-size: 20px !important;
 }
