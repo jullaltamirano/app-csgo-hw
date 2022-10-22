@@ -12,8 +12,11 @@ export default function Nav (){
                 </Link> 
             </div>
             <ul>
-                <Link to='/' className={s.link}>
-                <li>Home</li>
+                <Link to='/weapons' className={s.link}>
+                <li>Weapons</li>
+                </Link>
+                <Link to='/maps' className={s.link}>
+                <li>Maps</li>
                 </Link>
                 <Link to='/about' className={s.link}>
                 <li>About</li>

@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--gold);
-    padding: 10px 50px;
+    padding: 0.5vw 2vw;
     align-items: center;
 }
 
 .nav_container img {
-    width: 6vh;
-    height: 6vh;
+    width: 3.5vw;
+    height: 3.5vw;
 }
 
 .nav_container ul {
@@ -17,8 +17,8 @@
 }
 
 .nav_container li {
-    margin: 0px 20px;
-    font-size: 20px;
+    margin: 0px 1.1vw;
+    font-size: 1.1vw;
     font-weight: 700;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .logo_container h1 {
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 1.1vw;
+    font-size: 1.4vw;
 }
 
 .link {

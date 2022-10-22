@@ -1,6 +1,7 @@
 #root {
-    --gold: #FFA500;
+    --gold: #ffa600;
     --blue: #1D2C49;
+    --hovergold: #ffc14d;
 }
 
 body {

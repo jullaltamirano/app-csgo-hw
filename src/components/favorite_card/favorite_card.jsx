@@ -1,9 +1,20 @@
 import s from './favorite_card.module.css'
+import { removeFavorite } from '../../redux/actions'
+import { useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 export default function FavoriteCard({fav}){
+
+    const dispatch = useDispatch()
+
     return(
         <div className={s.container}>
-            <h3>{fav.name}</h3>
+            <div className={s.title_container}>
+                <h3>{fav.name}</h3>
+                <button
+                    onClick = {() => dispatch(removeFavorite(fav))}
+                >X</button>
+            </div>
             <img src={fav.img} alt=''/>
             <ul>
                 <li>Price: <b>{fav.stats.price}</b></li>

@@ -1,0 +1,9 @@
+.mapcard_container {
+    margin: 50px 200px;
+}
+
+.container h2 {
+    font-size: 6vh;
+    color: var(--gold);
+    text-align: center;
+}

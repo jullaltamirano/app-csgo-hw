@@ -1,7 +1,7 @@
 import s from './weapon.module.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { addToFavorite } from '../../redux/actions'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function Weapon({weapons}){
 
@@ -23,10 +23,13 @@ export default function Weapon({weapons}){
 
     return (
         <div className={s.container}>
-            <h3>{weapons.name}</h3>
-            <button
-                onClick={(e) => dispatch(addToFavorite(weapons))}
-            >♥ Add to Favorite</button>
+            <div className={s.title_container}>
+                <h3>{weapons.name}</h3>
+                <button
+                    onClick={(e) => dispatch(addToFavorite(weapons))}
+                >♥ Add to Favorite</button>
+                <span id='alert' className={s.alert}></span>
+            </div>
             <img src={weapons.render} className={s.weapon_img}/>            
             <div className={s.div_container}>
                 <div className={s.bullet_container}>

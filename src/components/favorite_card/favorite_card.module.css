@@ -17,3 +17,26 @@
     font-size: 30px;
     margin: 15px;
 }
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.title_container button {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 2vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 5px;
+    background-color: var(--gold);    
+}
+
+.title_container button:hover {
+    background-color: var(--hovergold); 
+    transition: 0.5s;
+}
