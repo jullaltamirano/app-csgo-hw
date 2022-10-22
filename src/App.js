@@ -19,7 +19,7 @@ function App() {
 
   const dispatch = useDispatch()
 
-  useEffect(() => {dispatch(getWeapons(weapons))},[])    
+  useEffect(() => {dispatch(getWeapons(weapons))},[])
 
   let weapons2 = useSelector(state => state.weapons)
 
